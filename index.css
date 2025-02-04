@@ -1,0 +1,26 @@
+*{
+    background-color: gray;
+}
+.heading-class{
+    color:rgb(7, 7, 240);
+    background-color: rgb(175, 242, 228);
+}
+h4{
+    color:brown;
+    background-color: bisque;
+    
+}
+p{
+    color:red;
+    background-color: rgb(170, 227, 252);
+}
+button{
+    background-color: white;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 162, 255);
+    color: aliceblue;
+    border: 1px solid black;
+}
