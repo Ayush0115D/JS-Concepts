@@ -7,6 +7,7 @@ y=undefined;
 console.log(x);
 isFollow= false;
 console.log(isFollow);
+//
 var age =12;
 var age=16;
 var age =69;
