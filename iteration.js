@@ -49,8 +49,9 @@ console.log(res);
 let str3="hello";
 console.log(str3.replace("hello","yello"));
 // PRACTICE
-
-
+let fullName = prompt("enter your fullname without spaces");
+let userName="@"+fullName+fullName.length
+console.log(userName);
 
 
 
