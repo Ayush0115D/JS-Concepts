@@ -19,13 +19,12 @@ for( let city of cities)
 // practice
 let markss=[79,99,72,62,24];
 let sum=0;
-
-
 for( let val of marks){
     sum=sum+val;
 }
 let avg =sum/marks.length;
 console.log(`avg marks of class= ${avg}`);
+//
 let items=[250,300,900,50,100];
 
 for(let i=0;i<items.length;i++){
