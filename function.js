@@ -15,7 +15,8 @@ function sum(x,y){  // x and y local var..as its scope is within function
 s=x+y;
 console.log("before return");
 return s;
-console.log("after return");  // return k baad wala code execute ni hota
+console.log("after return");  
+// return k baad wala code execute ni hota
 // return statement ke baad kn likhte bcoz ek bar apne func se return krdiya uske baad kuch bhi return ni hoga
 }
 let val=sum(9,9);
