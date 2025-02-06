@@ -29,6 +29,7 @@ const arrowMul=(a,b)=>{
 const printHello=()=> console.log("hello");
 // single line code to semicolon ignore bhi kr skte but we should not
 
+
 // PRACTICE
  function countVowels(str){
     let count=0;
@@ -39,7 +40,7 @@ count++;
     }
     return count;
  }
-//  arrow fucn.
+//  arrow Fucn.
  const countvow=(str)=>{
     let count=0;
     for(const char of str){
@@ -62,6 +63,7 @@ let nums=[2,4,5,6,7,9];
 nums.forEach((num)=>{
     console.log(num*num);
 });
+
 // Map
 let numb=[2,4,5,6,7,9];
 numb.map((val)=>{
@@ -79,30 +81,36 @@ console.log(newarr);
 let calcsquare = (number)=>{
     console.log(number*number);
 };
+
 // FILTER METHOD
 let ARR =[1,2,3,4,5];
 let evenARR=ARR.filter((val)=>{
     return val%2===0;
 })
 console.log(evenARR);
+
 // REDUCE METHOD
 let array =[1,2,3,4,5];
 const output=array.reduce((result,curr)=>{
     return result+curr;
 });
 console.log(output);
+
 // for finding max No
 let array1 =[1,2,4,3];
 const output1=array1.reduce((prev,curr)=>{
  return prev>curr?prev:curr;
 });
 console.log(output1);
+
+
 // P.Qs
 let marks =[91,77,83,99,88];
 let toppers= marks.filter((val)=>{
     return val>90;
 })
 console.log(toppers)
+
 // Q2
 let n=prompt("enter a number:");
 let arrayy=[];
@@ -115,7 +123,6 @@ let summ=arrayy.reduce((res,curr)=>{
 }
 );
 console.log("sum=",summ);
-
 let fact=arrayy.reduce((res,curr)=>{
     return res*curr;
 });
