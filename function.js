@@ -50,6 +50,9 @@ count++;
     return count;
     
  }
+ //FUNCTION IS JUST NORMAL FUNCTION THAT TAKES INPUT AND RETURN A O/P
+ //WHEREAS METHOD IS A FUNCTION WHICH IS ASSOCIATED WITH OBJECT
+ //for each loop
  let arr=["Delhi","Pune","mumbai"];
  arr.forEach((val,idx)=>{  // val at each index
 console.log(val.toUpperCase(),idx,arr);
